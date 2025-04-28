@@ -1,0 +1,165 @@
+@media (width> 768px){
+  /* navbar */
+    .nav-container{
+      display: none;
+    }
+    .menu-icon,.close-icon{
+      display: none;
+    }
+    .logo-box{
+      display: none;
+    }
+    }
+    /* mobile------ */
+    .nav-container {
+      display: none;
+      
+      
+    } 
+
+    
+    @media (max-width: 768px) {
+        /* navbar */
+ 
+        .nav-container{
+         width: 100%;
+          height: 70px; 
+       display: flex;
+       
+       padding: 20px 10px;
+       justify-content: space-between;
+       align-items: center;
+      
+       position: relative;
+        }
+       
+        .navbar {
+         display: none;
+        
+        } 
+     
+       
+       .nav-links {
+         display: none;
+         position: absolute;
+         top: 0;
+         right: 0;
+         flex-direction: column;
+         background-color: rgba(255, 255, 255, 0.95);
+         width: 30%;
+         padding: 20px 0;
+         text-align: center;
+         border-radius: 0 0 10px 10px;
+       }
+     
+       .nav-links.active {
+         display: flex;
+         z-index: 999;
+       }
+     
+       .nav-links li {
+         padding: 15px 0;
+         font-size: 18px;
+         border-bottom: 1px solid #ddd;
+       }
+     
+       .menu-icon {
+         display: block;
+       }
+     
+       .logo-box {
+         display: block;
+       }
+     
+       .navbar ul li img.logo {
+         display: none; /* Hide logo in the middle for mobile */
+        } 
+     
+       .close-icon {
+         display: flex;
+         justify-content: flex-end;
+         width: 100%;
+         padding: 0 20px 10px 0;
+       }
+     
+       .close-icon i {
+         font-size: 28px;
+       }
+
+       /* offer */
+       .offers-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+      /* custom grid */
+      .grid-container {
+        grid-template-columns: 1fr;
+      }
+      .item1 {
+        grid-row: auto;
+      }
+      .nested-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+
+       /* footer */
+       .footer-image{
+        margin-left: 0px;
+      }
+      .footer-container {
+        grid-template-columns: 1fr 1fr;
+      }
+     }
+
+/* booking section */
+
+     @media(width<900px){
+ 
+        .booking-form-box{
+          padding: 0 50px;
+        }
+        .booking-form{
+          flex-direction: column;
+          align-items: start;
+          margin:  auto;
+        }
+      }
+       
+      /* bokking section */
+
+      @media(width<550px){
+        .container{
+          margin:0 ;
+        
+          padding: 20px 10px;
+          width: 100%;
+        }
+        .booking-form-box{
+          padding: 0px;
+        }
+        
+      }
+
+
+      /* offer section */
+    
+      
+      @media (max-width: 480px) {
+        .offers-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      
+    
+
+      /* footer */
+     
+      
+      @media (max-width: 500px) {
+        .footer-container {
+          grid-template-columns: 1fr;
+          text-align: center;
+        }
+         
+      }

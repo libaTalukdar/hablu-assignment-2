@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Booking</title>
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="responsive.css">
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Newsletter</li>
+          <li><img src="image/Logo (3).png" class="logo" alt="" /></li>
+          <li>Rooms</li>
+          <li>Services</li>
+          <li>Pricing</li>
+        </ul>
+      </nav>
+
+      <!-- for mobile  -->
+      <div class="nav-container mobile-only">
+        <div class="logo-box">
+          <img src="image/Logo (3).png" class="logo" alt="" />
+        </div>
+
+        <div class="menu-icon" id="menu-icon">
+          <i class="bx bx-menu"></i>
+        </div>
+
+        <ul class="nav-links" id="nav-links">
+          <div class="close-icon" id="close-icon">
+            <i class="bx bx-x"></i>
+          </div>
+          <li>Home</li>
+          <li>About</li>
+          <li>Newsletter</li>
+          <li>Rooms</li>
+          <li>Services</li>
+          <li>Pricing</li>
+        </ul>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>
+          Discover Extraordinary<br />
+          Comfort in Hotels
+        </h1>
+      </div>
+    </section>
+    <!-- booking section -->
+
+    <section class="booking-section">
+      <div class="container">
+        <h2>Book a Room</h2>
+        <p>Discover the perfect space for you!</p>
+        <div class="booking-form-box">
+
+        
+    
+        <div class="booking-form">
+          <div class="date">
+            <label>Date</label>
+            <button class="input-btn">
+              <i class='bx bx-calendar' ></i>
+              <!-- <i class="fa-solid fa-calendar-days"></i> -->
+              Check Available
+            </button>
+          </div>
+    
+          <div class="person">
+            <label>Person</label>
+            <div class="person-options">
+              <button class="input-btn input-btn-1">
+                <i class='bx bx-child' ></i>Adults
+                <!-- <i class="fa-solid fa-user"></i> Adults -->
+                <select>
+                  <option>1</option>
+                  <option selected>2 </option>
+                  <option >3 </option>
+                  <option>4 </option>
+                  <option>5 </option>
+                  <option>6 </option>
+                </select>
+                <!-- <span>2</span> -->
+              </button>
+              <button class="input-btn input-btn-2">
+                <i class='bx bxs-face' ></i>Children
+                <select>
+                  <option selected>0</option>
+                  <option >1 </option>
+                  <option >2 </option>
+                  <option>3</option>
+                  <option>4 </option>
+                  <option>5 </option>
+                </select>
+              </button>
+            </div>
+          </div>
+    
+          <button class="book-now">Book Now</button>
+        </div>
+      </div>
+    </section>
+    
+   
+    
+
+    <!-- grid section -->
+
+    <section class="custom-grid-section">
+      <div class="grid-container">
+        <div class="grid-item item1">
+          <img src="image/Room.png" alt="Image 1" />
+        </div>
+
+        <div class="nested-grid">
+          <div class="nested-item">
+            <img src="image/Dining.png" alt="Image 2" />
+          </div>
+          <div class="nested-item">
+            <img src="image/Conferences & Meetings.png" alt="Image 3" />
+          </div>
+          <div class="nested-item">
+            <img src="image/Service & Facilities.png" alt="Image 4" />
+          </div>
+          <div class="nested-item">
+            <img src="image/Wedding Package.png" alt="Image 5" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="offers">
+      <div class="offers-header">
+        <div class="text">
+          <h2>Best offer of the month</h2>
+          <p>
+            Experience Fantastic Benefits and Obtain Better Rates When You Make
+            a Direct Booking on Our Official Website
+          </p>
+        </div>
+        <a href="#" class="view-all">View all</a>
+      </div>
+
+      <div class="cards">
+        <div class="card">
+          <img src="image/Rectangle 13.png" alt="Honeymoon" />
+          <p>Room</p>
+          <div class="card-box">
+            <h3>Honeymoon</h3>
+            <div class="user-icon-box">
+              <img src="image/Vector.png" alt="" class="user-icon" />
+              <p>2</p>
+            </div>
+          </div>
+          <small>Indulge in a Memorable One-Time Romantic Dinner for Two</small>
+          <p class="per-night">$699 <span>/night</span></p>
+        </div>
+        <div class="card">
+          <img src="image/Rectangle 13 (1).png" alt="Meetings" />
+          <p>Room</p>
+          <div class="card-box">
+            <h3>Meetings</h3>
+            <div class="user-icon-box">
+              <img src="image/Vector.png" alt="" class="user-icon" />
+              <p>30</p>
+            </div>
+          </div>
+          <small
+            >Experience an Exclusively Private Environment to Boost Your
+            Productivity</small
+          >
+          <p class="per-night">$999 <span>/ night</span></p>
+        </div>
+
+        <div class="card">
+          <img src="image/Rectangle 13 (2).png" alt="Honeymoon" />
+          <p>Dining</p>
+          <div class="card-box">
+            <h3>Romantic Dining</h3>
+            <div class="user-icon-box">
+              <img src="image/Vector.png" alt="" class="user-icon" />
+              <p>2</p>
+            </div>
+          </div>
+          <small>Indulge in a Memorable One-Time Romantic Dinner for Two</small>
+          <p class="per-night">$499 <span>/table</span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <footer class="footer">
+      <div class="footer-image">
+        <img src="image/Hotel Logo.png" alt="" class="footer-logo" />
+        <img src="image/Arrow 1.png" alt="" class="footer-arrow" />
+      </div>
+      <div class="footer-container">
+        <!-- First Column -->
+        <div class="footer-column first-column">
+          <p class="newsletter">Newsletter & Special Promo</p>
+          <div class="subscribe-form">
+            <input type="email" placeholder="Enter your email here" />
+            <button>Subscribe</button>
+          </div>
+        </div>
+
+        <!-- Second Column -->
+        <div class="footer-column">
+          <ul>
+            <li>About us</li>
+            <li>Contact</li>
+            <li>Location</li>
+          </ul>
+        </div>
+
+        <!-- Third Column -->
+        <div class="footer-column">
+          <ul>
+            <li>FAQ</li>
+            <li>Term of Use</li>
+            <li>Privacy Policy</li>
+          </ul>
+        </div>
+
+        <!-- Fourth Column -->
+        <div class="footer-column">
+          <ul>
+            <li>Services & Facilities</li>
+            <li>Careers</li>
+            <li>How to book</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+
+      <div class="footer-bottom">
+        <p>&copy; Copyright Booking Hotels. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      const menuIcon = document.getElementById("menu-icon");
+      const closeIcon = document.getElementById("close-icon");
+      const navLinks = document.getElementById("nav-links");
+
+      menuIcon.addEventListener("click", () => {
+        navLinks.classList.add("active");
+      });
+
+      closeIcon.addEventListener("click", () => {
+        navLinks.classList.remove("active");
+      });
+    </script>
+  </body>
+</html>
